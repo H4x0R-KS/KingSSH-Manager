@@ -56,7 +56,7 @@ echo ""
 echo -e "\033[1;31m◇────────────── ⚠️ KingSSH MANAGER ⚠️ ──────────────◇\033[0m"
 echo ""
 #-----------------------------------------------------------------------------------------------------------------
-echo -ne "\033[1;36m◇ Want to continue? [Y/N]: \033[1;37m"; read x
+echo -ne "\033[1;36m◇ Want to continue? [Y/N]: \033[1;37m"; read -e -i Y x
 [[ $x = @(n|N) ]] && exit
 sed -i 's/Port 22222/Port 22/g' /etc/ssh/sshd_config  > /dev/null 2>&1
 service ssh restart  > /dev/null 2>&1
