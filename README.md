@@ -12,7 +12,7 @@
 ___Update System Packages and Install SCRIPT___
 
 ```
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/H4x0R-KS/SSH-Manager/main/kingssh; chmod 777 kingssh;./kingssh
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/H4x0R-KS/KingSSH-Manager/main/kingssh; chmod 777 kingssh;./kingssh
 
 ```
 
