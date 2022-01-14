@@ -363,8 +363,8 @@ case "$x" in
    echo -ne "\n\033[1;31m◇ ENTER \033[1;33mto return to \033[1;32mMENU!\033[0m"; read
    ;;
    10)
+   clear
    conexao
-   exit;
    ;;
    11)
    clear
@@ -397,7 +397,6 @@ case "$x" in
    17)
    clear
    badvpn
-   exit;
    ;;
    18)
    clear
